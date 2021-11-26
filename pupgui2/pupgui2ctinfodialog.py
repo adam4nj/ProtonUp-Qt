@@ -1,10 +1,10 @@
 import os
 from util import get_steam_game_names_by_ids
 
-from PySide6.QtWidgets import *
-from PySide6.QtCore import *
-from PySide6.QtGui import *
-from PySide6.QtUiTools import QUiLoader
+from PySide2.QtWidgets import *
+from PySide2.QtCore import *
+from PySide2.QtGui import *
+from PySide2.QtUiTools import QUiLoader
 
 
 class PupguiCtInfoDialog(QObject):

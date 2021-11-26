@@ -3,8 +3,8 @@
 # Copyright (C) 2021 DavidoTek, partially based on AUNaseef's protonup
 
 import os, shutil, tarfile, requests, hashlib
-from PySide6.QtCore import *
-from PySide6.QtWidgets import QMessageBox
+from PySide2.QtCore import *
+from PySide2.QtWidgets import QMessageBox
 
 CT_NAME = 'Roberta'
 CT_LAUNCHERS = ['steam']

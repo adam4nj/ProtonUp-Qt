@@ -1,9 +1,9 @@
 import sys, os, shutil
 import threading
-from PySide6.QtWidgets import *
-from PySide6.QtCore import *
-from PySide6.QtGui import *
-from PySide6.QtUiTools import QUiLoader
+from PySide2.QtWidgets import *
+from PySide2.QtCore import *
+from PySide2.QtGui import *
+from PySide2.QtUiTools import QUiLoader
 
 from util import apply_dark_theme, create_compatibilitytools_folder
 from util import install_directory, available_install_directories, get_install_location_from_directory_name
@@ -235,7 +235,7 @@ if __name__ == '__main__':
 
     window = MainWindow(pupgui2_base_dir)
 
-    ret = app.exec()
+    ret = app.exec_()
 
     shutil.rmtree(TEMP_DIR, ignore_errors=True)
 

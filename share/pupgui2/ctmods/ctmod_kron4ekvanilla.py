@@ -4,7 +4,7 @@
 
 import os, shutil, tarfile, requests, hashlib
 import subprocess
-from PySide6.QtCore import *
+from PySide2.QtCore import *
 
 CT_NAME = 'Kron4ek Wine-Builds Vanilla'
 CT_LAUNCHERS = ['lutris']

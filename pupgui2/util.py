@@ -2,9 +2,9 @@ import os, subprocess, shutil
 import threading, requests, json
 import vdf
 from configparser import ConfigParser
-from PySide6.QtWidgets import *
-from PySide6.QtCore import *
-from PySide6.QtGui import *
+from PySide2.QtWidgets import *
+from PySide2.QtCore import *
+from PySide2.QtGui import *
 
 from constants import POSSIBLE_INSTALL_LOCATIONS, CONFIG_FILE, PALETTE_DARK
 from constants import STEAM_API_GETAPPLIST_URL, LOCAL_STEAM_APPLIST_FILE

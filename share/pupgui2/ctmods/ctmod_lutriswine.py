@@ -3,7 +3,7 @@
 # Copyright (C) 2021 DavidoTek, partially based on AUNaseef's protonup
 
 import os, shutil, tarfile, requests, hashlib
-from PySide6.QtCore import *
+from PySide2.QtCore import *
 
 CT_NAME = 'Lutris-Wine'
 CT_LAUNCHERS = ['lutris']

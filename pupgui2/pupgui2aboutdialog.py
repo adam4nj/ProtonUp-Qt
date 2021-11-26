@@ -1,9 +1,9 @@
 import os, requests, webbrowser
 
-from PySide6.QtWidgets import *
-from PySide6.QtCore import *
-from PySide6.QtGui import *
-from PySide6.QtUiTools import QUiLoader
+from PySide2.QtWidgets import *
+from PySide2.QtCore import *
+from PySide2.QtGui import *
+from PySide2.QtUiTools import QUiLoader
 
 from constants import APP_NAME, APP_VERSION, APP_GHAPI_URL, ABOUT_TEXT
 from util import config_theme, apply_dark_theme
